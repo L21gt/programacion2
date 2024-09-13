@@ -12,12 +12,13 @@
  */
 
 let contact = { }; // ¿Qué propiedades tiene contact?
-if(contact.notes) { 
+if(contact.notes) { //No se muestra nada en consola, la condicion es false
+                    //contact.notes es false
     console.log(contact.notes);
 }
 
 if(!contact.notes) { // if different then undefined
-    console.log(contact.notes);
+    console.log(contact.notes); //CONSOLA: undefined
 }
 
 /**
@@ -33,10 +34,10 @@ if(!contact.notes) { // Si no existe, se crea y muestra un mensaje
     contact.notes = "something really important";
 }
 if(contact.notes) { // 
-    console.log(contact.notes);
+    console.log(contact.notes);//CONSOLA: something really important
 }
 
-if(!contact.notes) { // 
+if(!contact.notes) { // !contact.notes == False
     contact.notes = "¿Esto lo ejecutará o no?"; 
 }
 

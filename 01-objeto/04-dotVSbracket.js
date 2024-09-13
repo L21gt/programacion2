@@ -6,7 +6,7 @@
  * Existe otra manera de hacerlo, se denomina la notación de corchetes.
  * 
  * Recuerde: las claves son strings
- * (este ejemplo no se ejecutará, a menos que copies elcontact3 object)
+ * (este ejemplo no se ejecutará, a menos que copies el contact3 object)
 */
 //contact3.tel === contact["tel"];
 //contact3.email.work === contact["email"]["work"]

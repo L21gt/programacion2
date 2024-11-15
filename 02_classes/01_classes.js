@@ -448,7 +448,7 @@ let Vehicle = function(id, latitude, longitude){
         };
         
         let vehicle5_1 = new Vehicle5({longitude: 18.213423, latitude: 59.367628, id: "AL1024"});
-        vehicle.setPosition({longitude: 18.193121, latitude: 59.378654});
+        vehicle5_1.setPosition({longitude: 18.193121, latitude: 59.378654});
         console.log(vehicle5_1.getPosition());
     
     
